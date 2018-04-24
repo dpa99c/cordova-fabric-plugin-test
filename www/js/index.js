@@ -6,7 +6,7 @@ $(document).on('deviceready', onDeviceReady);
 
 
 function init(){
-    window.fabric.core.initialize();
+    window.fabric.core.initialize(checkInit);
 }
 
 function checkInit(){
