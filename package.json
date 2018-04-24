@@ -1,0 +1,27 @@
+{
+  "name": "io.cordova.plugin.fabric.test",
+  "displayName": "Cordova Fabric Plugin Test",
+  "version": "0.0.1",
+  "description": "A Cordova project to test/validate cordova-fabric-plugin",
+  "author": "Dave Alden",
+  "license": "MIT",
+  "dependencies": {
+    "cordova-android": "^6.3.0",
+    "cordova-ios": "^4.5.4",
+    "cordova-plugin-fabric": "*",
+    "cordova-plugin-whitelist": "^1.3.3"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-fabric-plugin": {
+        "FABRIC_API_KEY": "1234567890123456789012345678901234567890",
+        "FABRIC_API_SECRET": "1234567890123456789012345678901234567890123456789012345678901234"
+      }
+    },
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  }
+}
